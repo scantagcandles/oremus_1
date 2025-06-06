@@ -8,7 +8,8 @@ import { createClient } from '@supabase/supabase-js';
 // WAŻNE: Zastąp te dane swoimi danymi z Supabase!
 // Znajdziesz je w: Settings > API w Supabase Dashboard
 // =====================================================
-
+EXPO_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
+EXPO_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
 
 // Utworzenie klienta Supabase
 const supabase = createClient(supabaseUrl, supabaseAnonKey, {
