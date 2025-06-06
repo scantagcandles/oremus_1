@@ -8,8 +8,7 @@ import { createClient } from '@supabase/supabase-js';
 // WAŻNE: Zastąp te dane swoimi danymi z Supabase!
 // Znajdziesz je w: Settings > API w Supabase Dashboard
 // =====================================================
-const supabaseUrl = 'https://zexkkicukwvgcvnxltlw.supabase.co'; // <- ZMIEŃ NA SWÓJ URL
-const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpleGtraWN1a3d2Z2N2bnhsdGx3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDg3NTg2ODUsImV4cCI6MjA2NDMzNDY4NX0.uSk5vEayHh0_4SETEEOZWu2WQFrQUUT0iztnDbm3IKA'; // <- ZMIEŃ NA SWÓJ KLUCZ
+
 
 // Utworzenie klienta Supabase
 const supabase = createClient(supabaseUrl, supabaseAnonKey, {
